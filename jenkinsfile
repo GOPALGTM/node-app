@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Code'){
             steps {
                 echo "Cloning the code"
-                git url:"https://github.com/GOPALGTM/node-todo-app.git", branch:"main"
+                git url:"https://github.com/GOPALGTM/node-app.git", branch:"main"
             }
         }
         stage('Build'){
